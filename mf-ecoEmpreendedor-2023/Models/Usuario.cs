@@ -13,9 +13,11 @@ namespace mf_ecoEmpreendedor_2023.Models
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a data de nascimento!")]
+        [Display(Name = "Data de Nascimento")]
         public string DataNasc { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o endereço!")]
+        [Display(Name = "Endereço")]
         public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o login!")]
@@ -28,9 +30,11 @@ namespace mf_ecoEmpreendedor_2023.Models
         public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o RG!")]
+        [Display(Name = "RG")]
         public int Rg { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o CPF!")]
+        [Display(Name = "CPF")]
         public string Cpf { get; set; }
 
 
